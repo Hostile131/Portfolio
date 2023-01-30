@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/base-min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+    />
+    <link 
+      rel="stylesheet"
+      href="./assets/css/pure-style.css"/>
+    <title>Ben's Portfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Ben's Portfolio</a>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item pure-menu-selected">
+            <a href="#" class="pure-menu-link">Home</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#projects" class="pure-menu-link">Projects</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#about" class="pure-menu-link">About</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#contact" class="pure-menu-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="splash-container" id="home">
+      <div class="splash">
+        <h1 class="splash-head">Welcome to Ben's Journey through web development!</h1>
+        <!-- <p class="splash-subhead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+        <p>
+          <a href="http://purecss.io" class="pure-button pure-button-primary"
+            >Get Started</a
+          >
+        </p> -->
+      </div>
+    </div>
+
+    <div class="content-wrapper" id="projects">
+      <div class="content">
+        <h2 class="content-head is-center">
+          Web Development Projects
+        </h2>
+
+        <div class="pure-g">
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+            <h3 class="content-subhead">
+              <i class="fa fa-rocket"></i>
+              My first attempt at a website
+            </h3>
+            <a href="https://hostile131.github.io/module-1-challenge/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/Module1.jpg" alt="Screenshot of First Web Application" style="width:605px;height:305px;border:5px solid blue;"></a>
+            <p>
+              This was my first attempt at basic html coding. You can view the GitHub repository <a href="https://github.com/Hostile131/module-1-challenge" target="_blank" rel="noopener noreferrer">here</a>
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              Password Generator
+            </h3>
+            <a href="https://hostile131.github.io/module-3-challenge/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/Module3.jpg" alt="Screenshot of Password Generator Application" style="width:305px;height:305px;border:5px solid blue;"></a>
+            <p>
+                This application generates a random password. You can view the GitHub repository <a href="https://github.com/Hostile131/module-3-challenge" target="_blank" rel="noopener noreferrer">here</a>
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              Quiz Website
+            </h3>
+            <a href="https://hostile131.github.io/module-4-challenge/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/Module4.jpg" alt="Screenshot of Quiz Website Application" style="width:305px;height:305px;border:5px solid blue;"></a>
+            <p>
+                This application is a quiz website. You can view the GitHub repository <a href="https://github.com/Hostile131/module-4-challenge" target="_blank" rel="noopener noreferrer">here</a>
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              Daily Organizer
+            </h3>
+            <a href="https://hostile131.github.io/super-disco/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/Scheduler.jpg" alt="Screenshot of Daily Organizer Application" style="width:305px;height:305px;border:5px solid blue;"></a>
+            <p>
+                This application is a daily organizer. You can view the GitHub repository <a href="https://github.com/Hostile131/super-disco" target="_blank" rel="noopener noreferrer">here</a>
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              Streaming search
+            </h3>
+            <a href="https://hostile131.github.io/project-one/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/Streaming.jpg" alt="Screenshot of Streaming Service Search Application" style="width:305px;height:305px;border:5px solid blue;"></a>
+            <p>
+                This application is a streaming service search application. You can view the GitHub repository <a href="https://github.com/Hostile131/project-one" target="_blank" rel="noopener noreferrer">here</a>
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              README generator
+            </h3>
+            <a href="https://github.com/Hostile131/module-9/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/READMEGen.jpg" alt="Screenshot of README generator application" style="width:305px;height:305px;border:5px solid blue;"></a>
+            <p>
+                This application utilizes JavaScript and node to procedurally generate a README.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="ribbon l-box-lrg pure-g" id="about">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+          <img
+            width="300"
+            alt="Ben Portrait"
+            class="pure-img-responsive"
+            src="./assets/images/Portrait.jpg"
+          />
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+          <h2 class="content-head content-head-ribbon">
+            About Ben
+          </h2>
+
+          <p>
+            Ben is a United States Air Force veteran who is developing coding skills as an avenue towards being able to spend more time with his wife and son, instead of being deployed overseas all the time.
+          </p>
+        </div>
+      </div>
+
+      <div class="content" id="contact">
+        <h2 class="content-head is-center">
+          Links and Contact Information
+        </h2>
+
+        <div class="pure-g">
+          <!-- <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+            <form class="pure-form pure-form-stacked">
+              <fieldset>
+                <label for="name">Your Name</label>
+                <input id="name" type="text" placeholder="Your Name" />
+
+                <label for="email">Your Email</label>
+                <input id="email" type="email" placeholder="Your Email" />
+
+                <label for="password">Your Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="Your Password"
+                />
+
+                <button type="submit" class="pure-button">Sign Up</button>
+              </fieldset>
+            </form>
+          </div> -->
+
+          <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+            <h4><a href="https://github.com/Hostile131" target="_blank" rel="noopener noreferrer">GitHub Profile</a></h4>
+            <!-- <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p> -->
+            <h4><a href="mailto:actuallysmart@yahoo.com">Email</a></h4>
+            <!-- <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="footer l-box is-center">
+        View the source of this layout to learn more. Made with love by the Pure
+        Team.
+      </div> -->
+    </div>
+  </body>
 </html>
